@@ -45,7 +45,7 @@ for i in range(5): # five games
         target = targets[player_index]
         hands_won = get_int_input(
             prompt = f"Please input number of hands won by {names[player_index]} = ",
-            condition=lambda x : 1 <= x <= 13, 
+            condition=lambda x : 0 <= x <= 13, 
             condition_fail_text="Pleaes input valid number of hands"
         )
 
